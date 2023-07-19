@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: black;
+    --white-color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 11px 29px;
+    border-radius: 20px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*==========> nav style start <=========== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: var(--white-color);
+    width: 100%; 
+    height: auto;
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item ul > li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    color: #3e3751;
+    font-size: 14px;
+}
+
+.nav-item .nav-group {
+    display: flex;
+    padding: 10px;
+    background-color: #e7e6e9;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.nav-item .nav-group i {
+    font-size: 18px;
+}
+
+.nav-item .nav-group .fa-youtube {
+   color: #f61c0d;
+}
+
+.nav-item .nav-group li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+
+nav .logo h1 {
+    font-size: 30px;
+}
+
+.Game {
+    color: #ff42a5;
+}
+
+nav .logo img {
+    width: 60px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+
+/*==========> nav style end <=========== */
+
+
+
+
+
+/*==========> banner style start <=========== */
+.banner {
+    display: flex;
+}
+
+.banner .banner-left {
+    background-image: url('images/Group\ 14.png');
+    background-position: right;
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+}
+
+.banner .banner-right {
+    width: 50%;
+    padding-right: 170px;
+}
+
+.banner .banner-left h2 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: #353c45;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+
+
+.banner-left ul li {
+    margin-bottom: 14px;
+    list-style: none;
+    font-size: 13px;
+    color: #534c64;
+    font-weight: 600;
+}
+
+.banner-left li i {
+    color: #ff4daa;
+    margin-right: 6px;
+}
+
+.banner-left #user {
+    color: black
+}
+
+
+.banner .banner-left .banner-icon {
+    /* margin-left: 140px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+
+ .banner .banner-left .banner-icon li {
+    margin-bottom: 10px;
+    list-style: none;
+    color: #534c64;
+    font-size: 13px;
+ }
+
+ 
+.banner-left h1 {
+    /* color :linear-gradient(#dd4cc1, #a953de);  */
+    color: #a953de;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.banner .banner-right img {
+    width: 100%;
+}
+
+#sing {
+    background-color: #ff42a5;
+}
+
+#rogue {
+    background-color: #4ec5f7;
+}
+
+
+.banner .banner-left .banner-btn {
+   display: flex;
+   justify-content: center;
+   gap: 12px;
+   margin-top: 40px;
+}
+
+.banner-right {
+    margin-left: 40px;
+}
+/*==========> banner style end <=========== */
+
+
+
+
+/*============> Gamer section style start<============ */
+.gamer-container {
+    display: flex;
+    padding: 70px 150px;
+    gap: 20px;
+    background-color: #fff9fc;
+}
+
+.gamer-left {
+    width: 50%;
+}
+
+.gamer-left img {
+    width: 100%;
+}
+
+.gamer-right {
+    width: 50%;
+   text-align: end;
+   padding: 30px;
+}
+
+.gamer-right h1 {
+    color: #ab53dd;
+    font-size: 35px;
+    margin: 0;
+}
+
+.gamer-right p {
+    font-size: 13px;
+    color: #5e576e;
+    padding: 10px 0;
+}
+
+.gamer-right button {
+    background-color: #ff42a5;
+    margin-bottom: 30px;
+}
+
+.gamer-right span {
+    color: #5e576e;
+}
+
+.gamer-right h3 {
+    color: #534c64;
+}
+
+/*============> Gamer section style start<============ */
+
+
+
+
+/*===========> Online-Game-style start<====================== */
+.online-game-container{
+    /* padding: 80px 150px; */
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-game-container h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.online-game-container .funny-video {
+    color: #a653e0;
+}
+
+.online-game-container .cards-container .rapper p {
+    text-align: center;
+    color: #938f9e;
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1.3rem;
+    background-color: var(--white-color);
+}
+
+.cards-container .card {
+    position: relative;
+
+}
+
+.cards-container:last-child img {
+    width: 250px;
+}
+.cards-container .card .div-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #0a1c0a;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .5;
+    border-radius: 10px;
+    border: 5px solid #e13c93;
+    display: none;
+    transition: all .5s;
+}
+
+.cards-container .card:hover .div-info {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container .card .div-info i {
+    color: var(--white-color);
+    font-size: 35px;
+}
+
+.cards-container .card .div-info p {
+    color: #e13c93;
+}
+
+
+.online-game-container > p {
+    color: #938f9e;
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+/*===========> Online-Game-style end<====================== */
+
+
+
+
+/*==========> play-games-style strat <======================  */
+.play-games {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 5rem;
+}
+
+.game-left {
+    width: 95%;
+}
+.game-left img {
+    width: 100%;
+}
+
+.game-right {
+    width: 100%;
+    padding: 90px;
+    margin-left: 50px;
+}
+
+.game-left #small-img {
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -130px;
+    left: 300px;
+}
+
+.game-right h1 {
+    font-size: 35px;
+}
+
+.game-right #play-Game{
+    color: #df4cc0;
+}
+
+.game-right p {
+    font-size: 13px;
+    color: #898494;
+}
+/*==========> play-games-style end <======================  */
+
+
+
+
+
+/*=============> card style start <================ */
+.card-container {
+    padding: 50px 100px;
+    background-color: #fff9fc;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.cards .card:hover {
+    border: 2px solid #ff42a5;
+}
+
+.cards .card:hover p {
+    color: #ff42a5;
+
+}
+
+
+.cards .card {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    gap: 10px;
+    width: 190px;
+    height: 50px;
+    overflow: hidden; 
+     border-radius: 30px;
+    padding: 3px;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  
+     box-sizing: border-box; 
+    transition: all .5s;
+
+}
+
+.cards .card p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.cards .card img {
+    width: 40px;
+}
+/*=============> card style start <================ */
+
+
+
+
+
+
+/*===========> fotter style start <=================== */
+footer {
+    background-color: #0b0223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    color: var(--white-color);
+}
+
+footer .footer-logo h1 {
+    font-size: 30px;
+}
+
+
+footer .footer-logo img {
+    width: 60px;
+    height: 30px;
+    overflow: hidden;
+}
+
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-list ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-list ul > li {
+    font-size: 13px;
+    color: #e1dfe3;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-icon i {
+    font-size: 25px;
+}
+
+.footer-privacy ul li {
+    font-size: 11px;
+    color: #817c7c;
+    margin-bottom: 14px;
+}
+
+.footer-privacy ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.copy-footer small {
+    color: #817c7c;
+    font-size: 9px;
+}
+/*===========> fotter style end <=================== */
+
+
+
+
+
+
+/* Responsive Desing */
+/* => Mobail */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav-item ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding-right: 40px;
+    }
+
+    nav .nav-item > ul > li {
+        margin-bottom: 20px;
+    }
+
+    .nav-item .nav-group {
+       width: 170px;
+       margin-left: 0px;
+    }
+
+    .nav-item ul > li {
+        margin: 0;
+    }
+
+    .banner {
+        flex-direction: column;
+    } 
+
+    .banner .banner-left {
+        width: 100%;
+    }
+
+    .banner .banner-right {
+        width: 100%;
+        margin: 1px;
+        padding: 0 20px;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .gamer-container .gamer-left {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .gamer-container .gamer-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .online-game-container {
+        padding: 0;
+    }
+
+    .online-game-container > h1 {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .online-game-container .cards-container {
+        flex-direction: column;
+    }
+
+    .online-game-container .cards-container .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .play-games {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 2rem;
+    }
+
+    .game-left {
+        width: 90%;
+        order: 3;
+    }
+
+
+
+    .game-right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        order: 1;
+    }
+
+    .game-left #small-img {
+        width: 150px;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        position: relative;
+        top: -130px;
+        left: 203px;
+    }
+
+     .footer-list ul {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       padding: 0;
+    }
+
+    .footer-list ul li {
+        font-size: 16px;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .card-container .cards {
+         gap: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        padding: 100px 0;
+
+    }
+
+    .card-container .cards .card {
+        width: 125px;
+        padding: 0;
+    }
+
+    .card-container .cards .card img {
+        width: 30px;
+    }
+
+    .card-container .cards .card p {
+        font-size: 12px;
+    }
+
+    .card-container {
+        padding: 10px;
+    }
+
+    .online-game-container .cards-container .rapper p {
+        margin-bottom: 25px;
+    }   
+}
+
+
+/* =>Tablet */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    .banner .banner-right {
+        padding-right: 20px;
+    }
+
+    .banner-left ul {
+        margin-left: 0;
+     }
+
+     .banner .banner-left {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner .banner-right {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gamer-container {
+        padding-top: 30px;
+        padding: 0;
+    }  
+
+    .gamer-container .gamer-left {
+        width: 500px;
+        height: 100%;
+    }
+
+    .gamer-container .gamer-left img {
+        width: 110%;
+        margin-top: 20px
+    }
+
+    .online-game-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .online-game-container .cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;        
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .online-game-container > h1 {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .play-games {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 50px;
+        /* align-items: center; */
+        gap: 2rem;
+    }
+
+    .game-left {
+        width: 100vw;
+    }
+
+    .game-right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .game-left img {
+        width: 100%;
+    }
+
+    .game-left #small-img {
+        width: 150px;
+        border: 5px solid #fff;
+        border-radius: 5px;
+    }
+
+    .game-left #small-img {
+        width: 150px;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        position: relative;
+        top: -130px;
+        left: 190px;
+    }
+
+    .game-left {
+        width: 100%;
+    }
+
+    .game-left #big-image {
+        width: 300px;
+    }
+
+    .card-container .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+      
+}
