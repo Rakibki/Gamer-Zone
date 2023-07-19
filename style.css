@@ -293,6 +293,7 @@ nav .logo img {
 
 .cards-container .card {
     position: relative;
+    transition: all 1s;
 
 }
 
@@ -305,11 +306,10 @@ nav .logo img {
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: #0a1c0a;
+    background-color: rgb(0, 0, 0, 0.6);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: .5;
     border-radius: 10px;
     border: 5px solid #e13c93;
     display: none;
@@ -331,6 +331,7 @@ nav .logo img {
 
 .cards-container .card .div-info p {
     color: #e13c93;
+    font-size: 16px;
 }
 
 
